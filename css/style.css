@@ -135,11 +135,11 @@ body {
   margin: 0 30px 30px 0;
 }
 
-.page_main__gallery_item>a:hover .page_main__gallery_item_footer {
+.page_main__gallery_item > a:hover .page_main__gallery_item_footer {
   background-color: #1abc9c;
 }
 
-.page_main__gallery_item>a:focus .page_main__gallery_item_footer {
+.page_main__gallery_item > a:focus .page_main__gallery_item_footer {
   background-color: #1abc9c;
 }
 
@@ -215,18 +215,19 @@ body {
 
 .page_main__blog_about {
   min-height: ;
-    margin: 0 0 12px 0;
+  margin: 0 0 12px 0;
 }
 
-.page_main__blog_button {
-  margin: 0;
-  padding: 0;
+.page_main__blog_item > a {
+  display: block;
+  width: 160px;
   font-size: 16px;
+  line-height: 50px;
+  text-align: center;
   font-weight: 300;
   color: #fff;
-  padding: 15px 40px;
+  text-decoration: none;
   border-radius: 3px;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
   background-color: #4ec6ab;
-  cursor: pointer;
 }
